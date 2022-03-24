@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/rest/v3/name/France",
+    "bodyPatterns": [{
+      "equalToJson": "{///json body}"
+    }]
+  },
+  "response": {
+    "status": 201,
+    "bodyFileName": "../__files/countries_france.json"
+  }
+}

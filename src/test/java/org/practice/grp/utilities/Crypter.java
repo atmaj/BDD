@@ -1,0 +1,130 @@
+package org.practice.grp.utilities;
+
+import java.nio.charset.StandardCharsets;
+import java.security.InvalidKeyException;
+import java.security.NoSuchAlgorithmException;
+import java.util.Base64;
+import java.util.Random;
+import javax.crypto.BadPaddingException;
+import javax.crypto.Cipher;
+import javax.crypto.IllegalBlockSizeException;
+import javax.crypto.KeyGenerator;
+import javax.crypto.NoSuchPaddingException;
+import javax.crypto.SecretKey;
+import javax.crypto.spec.SecretKeySpec;
+
+public class Crypter {
+    private static final String[] REPLACE_KEYS = new String[]{"!", "&", "(", ")", "@", "-", "!", "&", "(", ")", "@", "-", "!", "&", "(", ")", "@", "-", "!", "&", "(", ")", "@", "-"};
+    private static final int[] KEYGEN_SIZE = new int[]{192, 256, 128, 192, 256, 128, 192, 256, 128, 192, 256, 128, 192, 256, 128, 192, 256, 128, 192, 256, 128, 192, 256, 128, 192, 256, 128, 192, 256, 128, 192, 256, 128, 192, 256, 128};
+
+    public Crypter() {
+    }
+
+    public static String encrypt(String message) {
+        String cipherText = "";
+        int keySize = KEYGEN_SIZE[(new Random()).nextInt(KEYGEN_SIZE.length)];
+
+        try {
+            KeyGenerator generator = KeyGenerator.getInstance("AES");
+            generator.init(keySize);
+            SecretKey secKey = generator.generateKey();
+            Cipher cipher = Cipher.getInstance("AES");
+            cipher.init(1, secKey);
+            byte[] cipherBytes = cipher.doFinal(reverse(message).getBytes(StandardCharsets.UTF_8));
+            String aesKey = Base64.getEncoder().encodeToString(secKey.getEncoded());
+            String keyLength = String.valueOf(aesKey.length());
+            cipherText = keyLength.length() + reverse(Base64.getEncoder().encodeToString(cipherBytes) + reverse(aesKey)) + keyLength;
+            cipherText = replace(cipherText, "=");
+        } catch (NoSuchPaddingException | InvalidKeyException | IllegalBlockSizeException | BadPaddingException | NoSuchAlgorithmException var9) {
+            var9.printStackTrace();
+        }
+
+        return reverse(cipherText);
+    }
+
+    public static String decrypt(String cryptedMessage) {
+        String rawMessage = "";
+        String[] msgParts = getMessages(reverse(cryptedMessage));
+        byte[] keyBytes = Base64.getDecoder().decode(msgParts[msgParts.length - 2]);
+        byte[] cipherBytes = Base64.getDecoder().decode(msgParts[msgParts.length - 1]);
+
+        try {
+            SecretKey secKey = new SecretKeySpec(keyBytes, 0, keyBytes.length, "AES");
+            Cipher aesCipher = Cipher.getInstance("AES");
+            aesCipher.init(2, secKey);
+            byte[] textBytes = aesCipher.doFinal(cipherBytes);
+            rawMessage = new String(textBytes, StandardCharsets.UTF_8);
+        } catch (NoSuchPaddingException | InvalidKeyException | IllegalBlockSizeException | BadPaddingException | NoSuchAlgorithmException var8) {
+            var8.printStackTrace();
+        }
+
+        return reverse(rawMessage).trim();
+    }
+
+    private static String[] getMessagesWithKeySize(String message) {
+        String tmpMessage = message;
+        String[] var2 = REPLACE_KEYS;
+        int keySizeLength = var2.length;
+
+        int messageLength;
+        for(messageLength = 0; messageLength < keySizeLength; ++messageLength) {
+            String key = var2[messageLength];
+            tmpMessage = tmpMessage.replace(key, "=");
+        }
+
+        String keyGenToken = tmpMessage.substring(0, 3);
+        tmpMessage = tmpMessage.substring(3);
+        keySizeLength = Integer.parseInt(tmpMessage.substring(0, 1));
+        messageLength = tmpMessage.length() - keySizeLength;
+        int keySize = Integer.parseInt(tmpMessage.substring(messageLength));
+        tmpMessage = tmpMessage.substring(1, messageLength);
+        String key = tmpMessage.substring(0, keySize);
+        String cryptedMsg = reverse(tmpMessage.substring(keySize));
+        return new String[]{keyGenToken, key, cryptedMsg};
+    }
+
+    private static String[] getMessagesWithOutKeySize(String message) {
+        String tmpMessage = message;
+        String[] var2 = REPLACE_KEYS;
+        int messageLength = var2.length;
+
+        int keySize;
+        String key;
+        for(keySize = 0; keySize < messageLength; ++keySize) {
+            key = var2[keySize];
+            tmpMessage = tmpMessage.replace(key, "=");
+        }
+
+        int keySizeLength = Integer.parseInt(tmpMessage.substring(0, 1));
+        messageLength = tmpMessage.length() - keySizeLength;
+        keySize = Integer.parseInt(tmpMessage.substring(messageLength));
+        tmpMessage = tmpMessage.substring(1, messageLength);
+        key = tmpMessage.substring(0, keySize);
+        String cryptedMsg = reverse(tmpMessage.substring(keySize));
+        return new String[]{key, cryptedMsg};
+    }
+
+    private static String[] getMessages(String message) {
+        return getMessages(message, false);
+    }
+
+    private static String[] getMessages(String message, boolean isKeySizeIncluded) {
+        return isKeySizeIncluded ? getMessagesWithKeySize(message) : getMessagesWithOutKeySize(message);
+    }
+
+    private static String replace(String message, String toReplace) {
+        String replacedText;
+        String replaceWith;
+        for(replacedText = message; replacedText.contains(toReplace); replacedText = replacedText.replaceFirst(toReplace, replaceWith)) {
+            replaceWith = REPLACE_KEYS[(new Random()).nextInt(REPLACE_KEYS.length)];
+        }
+
+        return replacedText;
+    }
+
+    private static String reverse(String message) {
+        StringBuilder builder = new StringBuilder(message);
+        builder.reverse();
+        return builder.toString();
+    }
+}

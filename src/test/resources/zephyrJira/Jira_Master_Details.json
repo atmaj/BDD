@@ -1,0 +1,148 @@
+{
+  "Jira": [
+    {
+      "TESTCASE_NAME": "IT1_SIT_IN_Pacs.008_MT103_TS01_TC01",
+      "PROJECT_NAME": "TASFE",
+      "CYCLE_NAME": "Jira Integration Test Cycle X",
+      "FOLDER_NAME": "Build 1",
+      "VERSION": "POC for updating Jira",
+      "TESTCASE_KEY": "TASFE-16",
+      "CREATE_CYCLE_FOLDER": "N"
+    },
+    {
+      "TESTCASE_NAME": "IT2_SIT_IN_Camt.056_MT192_TS01_TC01",
+      "PROJECT_NAME": "TASFE",
+      "CYCLE_NAME": "Jira Integration Test Cycle X",
+      "FOLDER_NAME": "Build 1",
+      "VERSION": "POC for updating Jira",
+      "TESTCASE_KEY": "TASFE-17",
+      "CREATE_CYCLE_FOLDER": "N"
+    },
+    {
+      "TESTCASE_NAME": "IT2_SIT_OUT_Camt.029_MT196_TS01_TC01",
+      "PROJECT_NAME": "TASFE",
+      "CYCLE_NAME": "Jira Integration Test Cycle 1",
+      "FOLDER_NAME": "Build 1",
+      "VERSION": "POC for updating Jira",
+      "TESTCASE_KEY": "TASFE-18",
+      "CREATE_CYCLE_FOLDER": "N"
+    },
+    {
+      "TESTCASE_NAME": "IT1_SIT_OUT_Pacs.008_MT103_TS01_TC11",
+      "PROJECT_NAME": "TASFE",
+      "CYCLE_NAME": "Jira Integration Test Cycle 1",
+      "FOLDER_NAME": "Build 1",
+      "VERSION": "POC for updating Jira",
+      "TESTCASE_KEY": "TASFE-19",
+      "CREATE_CYCLE_FOLDER": "N"
+    },
+    {
+      "TESTCASE_NAME": "IT2_SIT_IN_Pacs.004_MT202RET_TS01_TC02",
+      "PROJECT_NAME": "TASFE",
+      "CYCLE_NAME": "Jira Integration Test Cycle 1",
+      "FOLDER_NAME": "Build 1",
+      "VERSION": "POC for updating Jira",
+      "TESTCASE_KEY": "TASFE-20",
+      "CREATE_CYCLE_FOLDER": "N"
+    },
+    {
+      "TESTCASE_NAME": "IT1_SIT_IN_Pacs.009_MT202_TS01_TC02",
+      "PROJECT_NAME": "TASFE",
+      "CYCLE_NAME": "Jira Integration Test Cycle 1",
+      "FOLDER_NAME": "Build 1",
+      "VERSION": "POC for updating Jira",
+      "TESTCASE_KEY": "TASFE-21",
+      "CREATE_CYCLE_FOLDER": "N"
+    },
+    {
+      "TESTCASE_NAME": "IT1_SIT_IN_Pacs.009_MT202_TS01_TC04",
+      "PROJECT_NAME": "TASFE",
+      "CYCLE_NAME": "Jira Integration Test Cycle 1",
+      "FOLDER_NAME": "Build 1",
+      "VERSION": "POC for updating Jira",
+      "TESTCASE_KEY": "TASFE-22",
+      "CREATE_CYCLE_FOLDER": "N"
+    },
+    {
+      "TESTCASE_NAME": "IT1_SIT_OUT_Pacs.004_MT202RET_TS01_TC02",
+      "PROJECT_NAME": "TASFE",
+      "CYCLE_NAME": "Jira Integration Test Cycle 1",
+      "FOLDER_NAME": "Build 1",
+      "VERSION": "POC for updating Jira",
+      "TESTCASE_KEY": "TASFE-23",
+      "CREATE_CYCLE_FOLDER": "N"
+    },
+    {
+      "TESTCASE_NAME": "IT1_SIT_IN_Pacs.008_MT103_TS01_TC13",
+      "PROJECT_NAME": "TASFE",
+      "CYCLE_NAME": "Jira Integration Test Cycle 1",
+      "FOLDER_NAME": "Build 1",
+      "VERSION": "POC for updating Jira",
+      "TESTCASE_KEY": "TASFE-24",
+      "CREATE_CYCLE_FOLDER": "N"
+    },
+    {
+      "TESTCASE_NAME": "IT1_SIT_OUT_Pacs.004_MT202RET_TS01_TC03",
+      "PROJECT_NAME": "TASFE",
+      "CYCLE_NAME": "Jira Integration Test Cycle 1",
+      "FOLDER_NAME": "Build 1",
+      "VERSION": "POC for updating Jira",
+      "TESTCASE_KEY": "TASFE-25",
+      "CREATE_CYCLE_FOLDER": "N"
+    },
+    {
+      "TESTCASE_NAME": "IT1_SIT_IN_Pacs.009Cov_MT202Cov_TS01_TC03",
+      "PROJECT_NAME": "TASFE",
+      "CYCLE_NAME": "Jira Integration Test Cycle 1",
+      "FOLDER_NAME": "Build 2",
+      "VERSION": "POC for updating Jira",
+      "TESTCASE_KEY": "TASFE-26",
+      "CREATE_CYCLE_FOLDER": "N"
+    },
+    {
+      "TESTCASE_NAME": "IT1_SIT_OUT_MT202COV_Pacs.009Cov_TS01_TC02",
+      "PROJECT_NAME": "TASFE",
+      "CYCLE_NAME": "Jira Integration Test Cycle 1",
+      "FOLDER_NAME": "Build 2",
+      "VERSION": "POC for updating Jira",
+      "TESTCASE_KEY": "TASFE-27",
+      "CREATE_CYCLE_FOLDER": "N"
+    },
+    {
+      "TESTCASE_NAME": "IT1_SIT_OUT_Pacs.009_MT202_TS01_TC03",
+      "PROJECT_NAME": "TASFE",
+      "CYCLE_NAME": "Jira Integration Test Cycle 1",
+      "FOLDER_NAME": "Build 2",
+      "VERSION": "POC for updating Jira",
+      "TESTCASE_KEY": "TASFE-28",
+      "CREATE_CYCLE_FOLDER": "N"
+    },
+    {
+      "TESTCASE_NAME": "IT1_SIT_OUT_Pacs.009_MT202_TS01_TC07",
+      "PROJECT_NAME": "TASFE",
+      "CYCLE_NAME": "Jira Integration Test Cycle 1",
+      "FOLDER_NAME": "Build 2",
+      "VERSION": "POC for updating Jira",
+      "TESTCASE_KEY": "TASFE-29",
+      "CREATE_CYCLE_FOLDER": "N"
+    },
+    {
+      "TESTCASE_NAME": "Jira Update Test 1",
+      "PROJECT_NAME": "T2CS",
+      "CYCLE_NAME": "Jira Integration Test Cycle 1",
+      "FOLDER_NAME": "Folder 1",
+      "VERSION": "ADMI007",
+      "TESTCASE_KEY": "T2CS-5609",
+      "CREATE_CYCLE_FOLDER": "N"
+    },
+    {
+      "TESTCASE_NAME": "Jira Update Test 2",
+      "PROJECT_NAME": "T2CS",
+      "CYCLE_NAME": "Jira Integration Test Cycle 2",
+      "FOLDER_NAME": "",
+      "VERSION": "ADMI007",
+      "TESTCASE_KEY": "T2CS-5610",
+      "CREATE_CYCLE_FOLDER": "N"
+    }
+  ]
+}

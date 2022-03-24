@@ -1,0 +1,842 @@
+{
+  "en_IE": {
+    "eir_map": {
+      "A41": [
+        {
+          "city": "BALLYBOUGHAL",
+          "county": "Dublin"
+        }
+      ],
+      "A42": [
+        {
+          "city": "GARRISTOWN",
+          "county": "Dublin"
+        }
+      ],
+      "A45": [
+        {
+          "city": "OLDTOWN",
+          "county": "Dublin"
+        }
+      ],
+      "A63": [
+        {
+          "city": "GREYSTONES",
+          "county": "Wicklow"
+        }
+      ],
+      "A67": [
+        {
+          "city": "WICKLOW",
+          "county": "Wicklow"
+        }
+      ],
+      "A75": [
+        {
+          "city": "CASTLEBLAYNEY",
+          "county": "Monaghan"
+        }
+      ],
+      "A81": [
+        {
+          "city": "CARRICKMACROSS",
+          "county": "Monaghan"
+        }
+      ],
+      "A82": [
+        {
+          "city": "KELLS",
+          "county": "Meath"
+        }
+      ],
+      "A83": [
+        {
+          "city": "ENFIELD",
+          "county": "Meath"
+        }
+      ],
+      "A84": [
+        {
+          "city": "ASHBOURNE",
+          "county": "Meath"
+        }
+      ],
+      "A85": [
+        {
+          "city": "DUNSHAUGHLIN",
+          "county": "Meath"
+        }
+      ],
+      "A86": [
+        {
+          "city": "DUNBOYNE",
+          "county": "Meath"
+        }
+      ],
+      "A91": [
+        {
+          "city": "DUNDALK",
+          "county": "Louth"
+        }
+      ],
+      "A92": [
+        {
+          "city": "DROGHEDA",
+          "county": "Louth"
+        }
+      ],
+      "A94": [
+        {
+          "city": "BLACKROCK",
+          "county": "Dublin"
+        }
+      ],
+      "A96": [
+        {
+          "city": "GLENAGEARY",
+          "county": "Dublin"
+        }
+      ],
+      "A98": [
+        {
+          "city": "BRAY",
+          "county": "Wicklow"
+        }
+      ],
+      "C15": [
+        {
+          "city": "NAVAN",
+          "county": "Meath"
+        }
+      ],
+      "D01": [
+        {
+          "city": "DUBLIN 1",
+          "county": "Dublin"
+        }
+      ],
+      "D02": [
+        {
+          "city": "DUBLIN 2",
+          "county": "Dublin"
+        }
+      ],
+      "D03": [
+        {
+          "city": "DUBLIN 3",
+          "county": "Dublin"
+        }
+      ],
+      "D04": [
+        {
+          "city": "DUBLIN 4",
+          "county": "Dublin"
+        }
+      ],
+      "D05": [
+        {
+          "city": "DUBLIN 5",
+          "county": "Dublin"
+        }
+      ],
+      "D06": [
+        {
+          "city": "DUBLIN 6",
+          "county": "Dublin"
+        }
+      ],
+      "D07": [
+        {
+          "city": "DUBLIN 7",
+          "county": "Dublin"
+        }
+      ],
+      "D08": [
+        {
+          "city": "DUBLIN 8",
+          "county": "Dublin"
+        }
+      ],
+      "D09": [
+        {
+          "city": "DUBLIN 9",
+          "county": "Dublin"
+        }
+      ],
+      "D10": [
+        {
+          "city": "DUBLIN 10",
+          "county": "Dublin"
+        }
+      ],
+      "D11": [
+        {
+          "city": "DUBLIN 11",
+          "county": "Dublin"
+        }
+      ],
+      "D12": [
+        {
+          "city": "DUBLIN 12",
+          "county": "Dublin"
+        }
+      ],
+      "D13": [
+        {
+          "city": "DUBLIN 13",
+          "county": "Dublin"
+        }
+      ],
+      "D14": [
+        {
+          "city": "DUBLIN 14",
+          "county": "Dublin"
+        }
+      ],
+      "D15": [
+        {
+          "city": "DUBLIN 15",
+          "county": "Dublin"
+        }
+      ],
+      "D16": [
+        {
+          "city": "DUBLIN 16",
+          "county": "Dublin"
+        }
+      ],
+      "D17": [
+        {
+          "city": "DUBLIN 17",
+          "county": "Dublin"
+        }
+      ],
+      "D18": [
+        {
+          "city": "DUBLIN 18",
+          "county": "Dublin"
+        }
+      ],
+      "D20": [
+        {
+          "city": "DUBLIN 20",
+          "county": "Dublin"
+        }
+      ],
+      "D22": [
+        {
+          "city": "DUBLIN 22",
+          "county": "Dublin"
+        }
+      ],
+      "D24": [
+        {
+          "city": "DUBLIN 24",
+          "county": "Dublin"
+        }
+      ],
+      "D6W": [
+        {
+          "city": "DUBLIN 6W",
+          "county": "Dublin"
+        }
+      ],
+      "E21": [
+        {
+          "city": "CAHIR",
+          "county": "Tipperary"
+        }
+      ],
+      "E25": [
+        {
+          "city": "CASHEL",
+          "county": "Tipperary"
+        }
+      ],
+      "E32": [
+        {
+          "city": "CARRICK-ON-SUIR",
+          "county": "Tipperary"
+        }
+      ],
+      "E34": [
+        {
+          "city": "TIPPERARY",
+          "county": "Tipperary"
+        }
+      ],
+      "E41": [
+        {
+          "city": "THURLES",
+          "county": "Tipperary"
+        }
+      ],
+      "E45": [
+        {
+          "city": "NENAGH",
+          "county": "Tipperary"
+        }
+      ],
+      "E53": [
+        {
+          "city": "ROSCREA",
+          "county": "Tipperary"
+        }
+      ],
+      "E91": [
+        {
+          "city": "CLONMEL",
+          "county": "Tipperary"
+        }
+      ],
+      "F12": [
+        {
+          "city": "CLAREMORRIS",
+          "county": "Mayo"
+        }
+      ],
+      "F23": [
+        {
+          "city": "CASTLEBAR",
+          "county": "Mayo"
+        }
+      ],
+      "F26": [
+        {
+          "city": "BALLINA",
+          "county": "Mayo"
+        }
+      ],
+      "F28": [
+        {
+          "city": "WESTPORT",
+          "county": "Mayo"
+        }
+      ],
+      "F31": [
+        {
+          "city": "BALLINROBE",
+          "county": "Mayo"
+        }
+      ],
+      "F35": [
+        {
+          "city": "BALLYHAUNIS",
+          "county": "Mayo"
+        }
+      ],
+      "F42": [
+        {
+          "city": "ROSCOMMON",
+          "county": "Roscommon"
+        }
+      ],
+      "F45": [
+        {
+          "city": "CASTLEREA",
+          "county": "Roscommon"
+        }
+      ],
+      "F52": [
+        {
+          "city": "BOYLE",
+          "county": "Roscommon"
+        }
+      ],
+      "F56": [
+        {
+          "city": "BALLYMOTE",
+          "county": "Sligo"
+        }
+      ],
+      "F91": [
+        {
+          "city": "SLIGO",
+          "county": "Sligo"
+        }
+      ],
+      "F92": [
+        {
+          "city": "LETTERKENNY",
+          "county": "Donegal"
+        }
+      ],
+      "F93": [
+        {
+          "city": "LIFFORD",
+          "county": "Donegal"
+        }
+      ],
+      "F94": [
+        {
+          "city": "DONEGAL",
+          "county": "Donegal"
+        }
+      ],
+      "H12": [
+        {
+          "city": "CAVAN",
+          "county": "Cavan"
+        }
+      ],
+      "H14": [
+        {
+          "city": "BELTURBET",
+          "county": "Cavan"
+        }
+      ],
+      "H16": [
+        {
+          "city": "COOTEHILL",
+          "county": "Cavan"
+        }
+      ],
+      "H18": [
+        {
+          "city": "MONAGHAN",
+          "county": "Monaghan"
+        }
+      ],
+      "H23": [
+        {
+          "city": "CLONES",
+          "county": "Monaghan"
+        }
+      ],
+      "H53": [
+        {
+          "city": "BALLINASLOE",
+          "county": "Galway"
+        }
+      ],
+      "H54": [
+        {
+          "city": "TUAM",
+          "county": "Galway"
+        }
+      ],
+      "H62": [
+        {
+          "city": "LOUGHREA",
+          "county": "Galway"
+        }
+      ],
+      "H65": [
+        {
+          "city": "ATHENRY",
+          "county": "Galway"
+        }
+      ],
+      "H71": [
+        {
+          "city": "CLIFDEN",
+          "county": "Galway"
+        }
+      ],
+      "H91": [
+        {
+          "city": "GALWAY",
+          "county": "Galway"
+        }
+      ],
+      "K32": [
+        {
+          "city": "BALBRIGGAN",
+          "county": "Dublin"
+        }
+      ],
+      "K34": [
+        {
+          "city": "SKERRIES",
+          "county": "Dublin"
+        }
+      ],
+      "K36": [
+        {
+          "city": "MALAHIDE",
+          "county": "Dublin"
+        }
+      ],
+      "K45": [
+        {
+          "city": "LUSK",
+          "county": "Dublin"
+        }
+      ],
+      "K56": [
+        {
+          "city": "RUSH",
+          "county": "Dublin"
+        }
+      ],
+      "K67": [
+        {
+          "city": "SWORDS",
+          "county": "Dublin"
+        }
+      ],
+      "K78": [
+        {
+          "city": "LUCAN",
+          "county": "Dublin"
+        }
+      ],
+      "N37": [
+        {
+          "city": "ATHLONE",
+          "county": "Westmeath"
+        }
+      ],
+      "N39": [
+        {
+          "city": "LONGFORD",
+          "county": "Longford"
+        }
+      ],
+      "N41": [
+        {
+          "city": "CARRICK-ON-SHANNON",
+          "county": "Leitrim"
+        }
+      ],
+      "N91": [
+        {
+          "city": "MULLINGAR",
+          "county": "Westmeath"
+        }
+      ],
+      "P12": [
+        {
+          "city": "MACROOM",
+          "county": "Cork"
+        }
+      ],
+      "P14": [
+        {
+          "city": "CORK - CROOKSTOWN",
+          "county": "Cork"
+        }
+      ],
+      "P17": [
+        {
+          "city": "KINSALE",
+          "county": "Cork"
+        }
+      ],
+      "P24": [
+        {
+          "city": "COBH",
+          "county": "Cork"
+        }
+      ],
+      "P25": [
+        {
+          "city": "MIDLETON",
+          "county": "Cork"
+        }
+      ],
+      "P31": [
+        {
+          "city": "BALLINCOLLIG",
+          "county": "Cork"
+        }
+      ],
+      "P32": [
+        {
+          "city": "CORK - DONOUGHMORE",
+          "county": "Cork"
+        }
+      ],
+      "P36": [
+        {
+          "city": "YOUGHAL",
+          "county": "Cork"
+        }
+      ],
+      "P43": [
+        {
+          "city": "CARRIGALINE",
+          "county": "Cork"
+        }
+      ],
+      "P47": [
+        {
+          "city": "CORK - DUNMANWAY",
+          "county": "Cork"
+        }
+      ],
+      "P51": [
+        {
+          "city": "MALLOW",
+          "county": "Cork"
+        }
+      ],
+      "P56": [
+        {
+          "city": "CHARLEVILLE",
+          "county": "Cork"
+        }
+      ],
+      "P61": [
+        {
+          "city": "FERMOY",
+          "county": "Cork"
+        }
+      ],
+      "P67": [
+        {
+          "city": "MITCHELSTOWN",
+          "county": "Cork"
+        }
+      ],
+      "P72": [
+        {
+          "city": "BANDON",
+          "county": "Cork"
+        }
+      ],
+      "P75": [
+        {
+          "city": "BANTRY",
+          "county": "Cork"
+        }
+      ],
+      "P81": [
+        {
+          "city": "SKIBBEREEN",
+          "county": "Cork"
+        }
+      ],
+      "P85": [
+        {
+          "city": "CLONAKILTY",
+          "county": "Cork"
+        }
+      ],
+      "R14": [
+        {
+          "city": "ATHY",
+          "county": "Kildare"
+        }
+      ],
+      "R21": [
+        {
+          "city": "MUINE BHEAG",
+          "county": "Carlow"
+        }
+      ],
+      "R32": [
+        {
+          "city": "PORTLAOISE",
+          "county": "Laois"
+        }
+      ],
+      "R35": [
+        {
+          "city": "TULLAMORE",
+          "county": "Offaly"
+        }
+      ],
+      "R42": [
+        {
+          "city": "BIRR",
+          "county": "Offaly"
+        }
+      ],
+      "R45": [
+        {
+          "city": "EDENDERRY",
+          "county": "Offaly"
+        }
+      ],
+      "R51": [
+        {
+          "city": "KILDARE",
+          "county": "Kildare"
+        }
+      ],
+      "R56": [
+        {
+          "city": "CURRAGH",
+          "county": "Kildare"
+        }
+      ],
+      "R93": [
+        {
+          "city": "CARLOW",
+          "county": "Carlow"
+        }
+      ],
+      "R95": [
+        {
+          "city": "KILKENNY",
+          "county": "Kilkenny"
+        }
+      ],
+      "T12": [
+        {
+          "city": "CORK - BALLINHASSIG",
+          "county": "Cork"
+        }
+      ],
+      "T23": [
+        {
+          "city": "CORK - BLARNEY",
+          "county": "Cork"
+        }
+      ],
+      "T34": [
+        {
+          "city": "CORK - WHITECHURCH",
+          "county": "Cork"
+        }
+      ],
+      "T45": [
+        {
+          "city": "LITTLE ISLAND",
+          "county": "Cork"
+        }
+      ],
+      "T56": [
+        {
+          "city": "CORK - WATERGRASSHILL",
+          "county": "Cork"
+        }
+      ],
+      "V14": [
+        {
+          "city": "SHANNON",
+          "county": "Clare"
+        }
+      ],
+      "V15": [
+        {
+          "city": "KILRUSH",
+          "county": "Clare"
+        }
+      ],
+      "V23": [
+        {
+          "city": "CAHERCIVEEN",
+          "county": "Kerry"
+        }
+      ],
+      "V31": [
+        {
+          "city": "LISTOWEL",
+          "county": "Kerry"
+        }
+      ],
+      "V35": [
+        {
+          "city": "KILMALLOCK",
+          "county": "Limerick"
+        }
+      ],
+      "V42": [
+        {
+          "city": "NEWCASTLE WEST",
+          "county": "Limerick"
+        }
+      ],
+      "V92": [
+        {
+          "city": "TRALEE",
+          "county": "Kerry"
+        }
+      ],
+      "V93": [
+        {
+          "city": "KILLARNEY",
+          "county": "Kerry"
+        }
+      ],
+      "V94": [
+        {
+          "city": "LIMERICK",
+          "county": "Limerick"
+        }
+      ],
+      "V95": [
+        {
+          "city": "ENNIS",
+          "county": "Clare"
+        }
+      ],
+      "W12": [
+        {
+          "city": "NEWBRIDGE",
+          "county": "Kildare"
+        }
+      ],
+      "W23": [
+        {
+          "city": "MAYNOOTH",
+          "county": "Kildare"
+        }
+      ],
+      "W34": [
+        {
+          "city": "MONASTEREVIN",
+          "county": "Kildare"
+        }
+      ],
+      "W91": [
+        {
+          "city": "NAAS",
+          "county": "Kildare"
+        }
+      ],
+      "X35": [
+        {
+          "city": "DUNGARVAN",
+          "county": "Waterford"
+        }
+      ],
+      "X42": [
+        {
+          "city": "KILMACTHOMAS",
+          "county": "Waterford"
+        }
+      ],
+      "X91": [
+        {
+          "city": "WATERFORD",
+          "county": "Waterford"
+        }
+      ],
+      "Y14": [
+        {
+          "city": "ARKLOW",
+          "county": "Wicklow"
+        }
+      ],
+      "Y21": [
+        {
+          "city": "ENNISCORTHY",
+          "county": "Wexford"
+        }
+      ],
+      "Y25": [
+        {
+          "city": "GOREY",
+          "county": "Wexford"
+        }
+      ],
+      "Y34": [
+        {
+          "city": "NEW ROSS",
+          "county": "Wexford"
+        }
+      ],
+      "Y35": [
+        {
+          "city": "WEXFORD",
+          "county": "Wexford"
+        }
+      ]
+    },
+    "phoneNumber": "(\\+353|0|00353)(83|85|86|87|88|89)\\d{7}",
+    "eir_code": "A(4[125]|6[37]|75|8[1-6]|9[12468])|C15|D(0[1-9]|1[0-8]|2[024]|6W)|E([24][15]|3[24]|53|91)|F(12|2[368]|3[15]|4[25]|5[26]|9[1-4])|H(1[2468]|23|5[34]|6[25]|71|91)|K(3[246]|45|56|67|78)|N(3[79]|41|91)|P(1[247]|2[45]|3[126]|4[37]|5[16]|6[17]|7[25]|8[15])|R(14|21|[34][25]|5[16]|9[35])|T(12|23|34|45|56)|V(1[45]|23|3[15]|42|9[2-5])|W(12|23|34|91)|X(35|42|91)|Y(14|2[15]|3[45])"
+  }
+}
